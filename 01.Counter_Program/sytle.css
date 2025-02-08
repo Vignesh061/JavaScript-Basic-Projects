@@ -1,0 +1,22 @@
+#mylabel{
+    display:block;
+    font-size: 10em;
+    text-align: center;
+    font-family:Helvetica;
+}
+#btncontainer{
+    text-align:center;
+}
+.mybtn{
+    padding:10px 20px;
+    font-size:1.3em;
+    color:white;
+    background-color:hsl(235, 92%, 69%);
+    border-radius: 7px;
+    transition:bakcgrond-color 0.25s;
+    cursor:pointer;
+}
+.mybtn:hover{
+    background-color:hsl(240, 100%, 50%);
+    
+}
