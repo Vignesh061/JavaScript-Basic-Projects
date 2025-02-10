@@ -1,0 +1,24 @@
+body{
+    background-color:hsl(208, 83%, 66%);
+    text-align:center;
+    justify-content:center;
+    margin-top:25%;
+}
+span{
+    color:hsl(0, 61%, 50%);
+}
+#btnelement{
+    background-color:hsl(318, 100%, 55%);
+    padding:7px 20px;
+    font-size:1.3em;
+    box-shadow:2px 2px 4px black, -2px -2px 4px black;
+    border-radius:5px;
+    color:white;
+    transition: background-color 0.4s;
+
+}
+#btnelement:hover{
+    background-color:white;
+    cursor:pointer;
+    color:hsl(318, 100%, 55%);
+}
