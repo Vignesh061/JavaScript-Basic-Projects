@@ -1,0 +1,48 @@
+body{
+    padding:0px;
+    margin:0px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 100hv;
+    background-color:rgb(102, 102, 236);
+    
+
+}
+.container{
+    margin-top:200px;
+    text-align:center; 
+    padding:20px;
+}
+label{
+    font-size:1.5em;
+}
+.no-container
+{
+    padding:20px;
+    font-size:2.5em;
+    animation:fadeIn is ease-in-out;
+}
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(-20px);
+    }
+}   to{
+    opacity:1;
+    transform:translateY(0);
+}
+#bttn{
+    font-size:1.9em;
+    background-color:brown;
+    padding:5px 18px;
+    border-radius:6px;
+    color:wheat;
+    border:none;
+
+}
+#bttn:hover{
+    cursor:pointer;
+    background-color:blanchedalmond;
+    color:brown;
+}
